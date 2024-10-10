@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FF69B4;
+}
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header div img {
+  width: 70px;
+}
+header div h1 {
+  color: white;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  font-size: 25px;
+  gap: 10px;
+}
+header ul li {
+  margin: 0 10px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  background-color: #FFD9EC;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+main p {
+  width: 600px;
+  text-align: center;
+  font-size: 25px;
+}
+main img {
+  width: 300px;
+  margin: 10px;
+}
+
+.sobre {
+  display: flex;
+  background-color: #FF69B4;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sobre img {
+  margin: 10px;
+}
+.sobre p {
+  width: 600px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.image {
+  background-color: #FFD9EC;
+  height: 45vh;
+}
+.image picture {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 70px;
+}
+
+footer {
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 30px;
+}
+footer section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer section p {
+  font-size: 20px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
